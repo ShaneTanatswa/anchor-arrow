@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anchor & Arrow</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@400;700&family=Allura&display=swap" rel="stylesheet">
+  <style>
+    .font-heading { font-family: 'Playfair Display', serif; }
+    .font-body { font-family: 'Lato', sans-serif; }
+    .font-script { font-family: 'Allura', cursive; }
+    :root {
+      --anchor-blue: #2E4A62;
+      --arrow-gold: #E0A34E;
+      --soft-sand: #F2E6D9;
+      --olive-green: #8D9B6A;
+      --white: #FFFFFF;
+    }
+  </style>
+</head>
+<body class="bg-[var(--soft-sand)] text-[var(--anchor-blue)] font-body">
+
+  <!-- HERO SECTION -->
+  <section class="relative h-screen flex items-center justify-center text-center bg-cover bg-center" style="background-image: url('https://source.unsplash.com/1600x900/?mother,child');">
+    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+    <div class="relative z-10 px-6">
+      <h1 class="text-4xl md:text-6xl font-heading text-white mb-6">
+        Anchoring caregivers in wisdom,<br> releasing children into purpose.
+      </h1>
+      <a href="#workshops" class="bg-[var(--arrow-gold)] hover:bg-[var(--olive-green)] text-white px-6 py-3 rounded-full text-lg transition">
+        Join Our Next Workshop
+      </a>
+    </div>
+  </section>
+
+  <!-- WELCOME -->
+  <section class="py-16 px-6 max-w-6xl mx-auto">
+    <img src="https://share.google/BQn5mvKcdhxLAmEf0">
+    <h2 class="text-3xl font-heading mb-6 text-center">Raising Children with Love, Faith & Skill</h2>
+    <p class="text-lg text-center max-w-3xl mx-auto mb-10">
+      At Anchor & Arrow, we believe every child deserves a safe, loving, and faith-filled start in life.
+      That’s why we equip caregivers of children aged 0–5 with the knowledge, skills, and heart to care well.
+      Our workshops blend practical caregiving skills, gentle discipline strategies, and Christian values,
+      giving caregivers the tools to help little ones grow healthy, resilient, and confident.
+      Whether you’re a parent, nanny, or early childhood worker, we’re here to support you every step of the way—
+      because when caregivers thrive, children flourish.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <img src="https://source.unsplash.com/600x400/?caregiver,training" class="rounded-lg shadow" alt="">
+      <img src="https://source.unsplash.com/600x400/?happy,family" class="rounded-lg shadow" alt="">
+      <img src="https://source.unsplash.com/600x400/?child,play" class="rounded-lg shadow" alt="">
+    </div>
+  </section>
+
+  <!-- WHAT WE OFFER -->
+  <section id="workshops" class="py-16 px-6 bg-[var(--white)]">
+    <h2 class="text-3xl font-heading mb-12 text-center">What We Offer</h2>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+      <div>
+        <img src="https://img.icons8.com/ios-filled/100/2E4A62/baby.png" class="mx-auto mb-4" alt="">
+        <h3 class="font-bold">Child Development Training</h3>
+        <p>Understanding growth and learning in early years.</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios-filled/100/2E4A62/handshake.png" class="mx-auto mb-4" alt="">
+        <h3 class="font-bold">Gentle Discipline Skills</h3>
+        <p>Building respect and cooperation without fear.</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios-filled/100/2E4A62/baby-bottle.png" class="mx-auto mb-4" alt="">
+        <h3 class="font-bold">Practical Caregiving Skills</h3>
+        <p>From feeding to play, making every moment count.</p>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/ios-filled/100/2E4A62/pray.png" class="mx-auto mb-4" alt="">
+        <h3 class="font-bold">Christian Character Building</h3>
+        <p>Instilling values that last a lifetime.</p>
+      </div>
+    </div>
+    <div class="text-center mt-8">
+      <a href="#workshops" class="bg-[var(--arrow-gold)] hover:bg-[var(--olive-green)] text-white px-6 py-3 rounded-full text-lg transition">
+        Explore Our Workshops
+      </a>
+    </div>
+  </section>
+
+  <!-- WHY ANCHOR & ARROW -->
+  <section class="py-16 px-6 max-w-4xl mx-auto text-center">
+    <img src="https://img.icons8.com/ios-filled/100/2E4A62/anchor.png" class="mx-auto mb-4" alt="">
+    <p class="mb-4">Anchors give stability, Arrows are released with purpose.<br/>
+    Together , they reflect our mission to support caregivers so they can raise children who are secure , resilient and ready to live out God's calling</p>
+    <p class="font-script text-xl" >"Like arrows in the hand of a warrior..." – Psalm 127:4–5</p>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="py-16 px-6 bg-[var(--white)]">
+    <h2 class="text-3xl font-heading mb-12 text-center">Testimonials</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="bg-[var(--soft-sand)] p-6 rounded-lg shadow">
+        <p>"This training changed how I parent. I feel equipped and encouraged!"</p>
+        <span class="block mt-4 font-bold">– Chloe, Sister of 2</span>
+      </div>
+      <div class="bg-[var(--soft-sand)] p-6 rounded-lg shadow">
+        <p>"The gentle discipline tools were exactly what I needed."</p>
+        <span class="block mt-4 font-bold">– Shamiso, Preschool Teacher</span>
+      </div>
+      <div class="bg-[var(--soft-sand)] p-6 rounded-lg shadow">
+        <p>"I left feeling confident and supported as a caregiver."</p>
+        <span class="block mt-4 font-bold">– Tanaka, Granny</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- UPCOMING WORKSHOPS -->
+  <section class="py-16 px-6 max-w-4xl mx-auto text-center">
+    <h2 style="font-size: large; font-style: oblique;"> Parenting Support Alert</h2>
+    <h2 class="text-3xl font-heading mb-6">Anchor & Arrows "You and Your Nanny" Workshop is here </h2>
+    <p style="margin: .5rem 0 0; font-size: 1rem; color: #374151;">Equipping you and your nanny with practical, loving care</p>
+
+
+
+
+    <ulol class="space-y-4">
+      
+      <li> Practical caregiving skills</li>
+      <li> Gentle Discipline Strategies</li>
+      <li>Understanding Child Growth Stages</li>
+      <li>Christian Values In Everday Care</li>
+    </ol>
+   
+  </section>
+
+  <!-- NEWSLETTER SIGNUP -->
+  <section class="py-16 px-6 bg-[var(--white)] text-center">
+    <h2 class="text-3xl font-heading mb-4">Register Into Our Community</h2>
+    <p class="mb-6">Get our free guide: “5 Tips for Loving, Faith-Filled Caregiving”</p>
+
+<div class="schedule" >
+        <div >
+          <span >📅</span>
+          <strong>Date:</strong>
+          <span>30 August 2025</span>
+        </div>
+        <div >
+          <span >🕒</span>
+          <strong>Time:</strong>
+          <span>9:00 AM</span>
+        </div>
+      </div>
+
+     
+
+      <div style="margin-top: 1rem; text-align: center;">
+        <a href="https://wa.me/263718044110?text=I%27m%20interested%20in%20the%20You%20and%20Your%20Nanny%20Workshop" target="_blank" rel="noopener" aria-label="Register via WhatsApp" style="display:inline-flex; align-items:center; gap:.5rem; background:#10b981; color:white; padding:.75rem 1rem; border-radius:999px; text-decoration:none; font-weight:600;">
+          <span>📲</span> Whatsapp +263718044110 to register
+        </a>
+      </div>
+
+ 
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-[var(--anchor-blue)] text-white py-8 px-6">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-6">
+      <div>
+        <h3 class="font-bold mb-4">Anchor & Arrow</h3>
+        <p>Equipping caregivers, empowering children.</p>
+      </div>
+     
+      <div>
+        <h4 class="font-bold mb-2">Follow Us</h4>
+        <div class="flex space-x-4">
+          <a href="#"><img src="https://img.icons8.com/ios-filled/24/FFFFFF/facebook--v1.png"/></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/24/FFFFFF/instagram-new.png"/></a>
+          <a href="#"><img src="https://img.icons8.com/ios-filled/24/FFFFFF/youtube-play.png"/></a>
+        </div>
+      </div>
+      <div>
+        <p class="font-script text-lg">"Train up a child in the way he should go..." – Proverbs 22:6</p>
+      </div>
+    </div>
+    <div class="mt-6 text-center text-sm">&copy; 2025 Anchor & Arrow. All rights reserved.</div>
+  </footer>
+
+</body>
+</html>
